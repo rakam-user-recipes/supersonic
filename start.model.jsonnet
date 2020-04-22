@@ -27,6 +27,7 @@
       }
     },
     _time : {
+      timeframes : [ "hour", "day", "week", "month", "dayOfWeek" ],
       type : "timestamp",
       column : "_time",
       reportOptions : {
