@@ -34,6 +34,7 @@
       }
     },
     _time : {
+      timeframes : [ "hour", "day", "week", "month", "dayOfWeek" ],
       type : "timestamp",
       column : "_time",
       reportOptions : {
@@ -48,6 +49,7 @@
       }
     },
     timestamp : {
+      timeframes : [ "hour", "day", "week", "month", "dayOfWeek" ],
       type : "timestamp",
       column : "timestamp",
       reportOptions : {
@@ -132,6 +134,7 @@
       }
     },
     server_time : {
+      timeframes : [ "hour", "day", "week", "month", "dayOfWeek" ],
       type : "timestamp",
       column : "$server_time",
       reportOptions : {
