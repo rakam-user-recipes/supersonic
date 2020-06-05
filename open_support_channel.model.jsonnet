@@ -28,6 +28,7 @@
       column : "event_type"
     },
     timestamp : {
+      timeframes : [ "hour", "day", "week", "month", "dayOfWeek" ],
       type : "timestamp",
       column : "timestamp"
     },
@@ -64,6 +65,7 @@
       column : "event_name"
     },
     _time : {
+      timeframes : [ "hour", "day", "week", "month", "dayOfWeek" ],
       type : "timestamp",
       column : "_time"
     },
