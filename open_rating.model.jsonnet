@@ -5,7 +5,10 @@
     schema : "supersonic",
     table : "open_rating"
   },
-  mappings : { },
+  mappings : {
+    eventTimestamp: '_time',
+    userId: 'user_id'
+  },
   dimensions : {
     schema_v : {
       type : "double",
