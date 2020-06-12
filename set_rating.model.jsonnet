@@ -137,6 +137,26 @@
       column : "experiment_group",
       aggregation : "sum",
       type : "double"
+    },
+     all_unique_devices : {
+      label : "Unique Devices",
+      description : "Count Unique Devices",
+      reportOptions : {
+        formatNumbers : true
+      },
+      column : "device_id",
+      aggregation : "countUnique",
+      type : "double"
+    },
+    all_unique_users : {
+      label : "Unique Users",
+      description : "Count Unique Users",
+      reportOptions : {
+        formatNumbers : true
+      },
+      column : "_user",
+      aggregation : "countUnique",
+      type : "double"
     }
   }
 }
