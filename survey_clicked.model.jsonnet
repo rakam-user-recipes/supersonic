@@ -25,6 +25,13 @@
         formatNumbers : true
       }
     },
+    survey_id: {
+      type : "string",
+      column : "survey_id",
+      reportOptions : {
+        formatNumbers : true
+      }
+    },
     _time : {
       timeframes : [ "hour", "day", "week", "month", "year", "hourOfDay", "dayOfMonth", "weekOfYear", "monthOfYear", "quarterOfYear", "dayOfWeek" ],
       type : "timestamp",
