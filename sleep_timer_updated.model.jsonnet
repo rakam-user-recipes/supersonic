@@ -52,7 +52,7 @@
       column : "app_version"
     },
     local_time : {
-      type : "timestamp",
+      type : "string",
       column : "local_time"
     },
     _user : {
