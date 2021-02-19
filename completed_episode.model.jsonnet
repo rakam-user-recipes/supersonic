@@ -196,6 +196,10 @@
       reportOptions : {
         formatNumbers : true
       }
+    },
+    downloaded : {
+      type : "boolean",
+      column : "downloaded"
     }
   },
   measures : {
