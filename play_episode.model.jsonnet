@@ -210,6 +210,10 @@
     audio_output : {
       type : "string",
       column : "audio_output"
+    },
+    headphones_connected : {
+      type : "boolean",
+      column : "headphones_connected"
     }
   },
   measures : {
