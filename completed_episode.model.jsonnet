@@ -200,6 +200,10 @@
     downloaded : {
       type : "boolean",
       column : "downloaded"
+    },
+    audio_output : {
+      type : "string",
+      column : "audio_output"
     }
   },
   measures : {
