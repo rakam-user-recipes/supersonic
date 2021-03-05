@@ -5,7 +5,11 @@
     schema : "supersonic",
     table : "show_view"
   },
-  mappings : { },
+  mappings : {
+    eventTimestamp : "_time",
+    incremental : "server_time",
+    userId : "_user"
+  },
   dimensions : {
     schema_v : {
       type : "double",
