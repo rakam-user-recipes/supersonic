@@ -1,4 +1,3 @@
 {
-    label: "supersonic",
-    version: 1.0
+    label: "supersonic"
 }
