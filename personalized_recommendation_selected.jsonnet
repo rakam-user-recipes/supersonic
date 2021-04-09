@@ -7,7 +7,7 @@
   },
   mappings : {
     eventTimestamp : "_time",
-    incremental : "$server_time",
+    incremental : "server_time",
     userId : "_user",
     deviceId : "device_id"
   },
