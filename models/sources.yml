@@ -1,14 +1,14 @@
 version: 2
-sources: 
+sources:
 - name: rakam_supersonic
-  database: rakam 
-  schema: supersonic 
+  database: rakam
+  schema: supersonic
   tables:
   - name: related_channel_recommendation_selected
     columns:
     - name: schema_v
       meta:
-        dimension:
+        dimension: 
           type: double
     - name: view_path
       meta:
