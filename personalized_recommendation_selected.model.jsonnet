@@ -142,7 +142,7 @@
   },
   measures : {
     all_rows : {
-      label : "All completed_episode",
+      label : "All personalized_recommendation_selected",
       reportOptions : {
         formatNumbers : true
       },
