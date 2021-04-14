@@ -1,7 +1,7 @@
 version: 2
 sources:
 - name: rakam_supersonic
-  database: rakam
+  database: rakam 
   schema: supersonic
   tables:
   - name: related_channel_recommendation_selected
