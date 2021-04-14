@@ -1,5 +1,5 @@
 version: 2
-sources:
+sources: 
 - name: rakam_supersonic
   database: rakam
   schema: supersonic 
