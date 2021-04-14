@@ -1,0 +1,114 @@
+version: 2
+sources:
+- name: rakam_supersonic
+  database: rakam
+  schema: supersonic
+  tables:
+  - name: related_channel_recommendation_selected
+    columns:
+    - name: schema_v
+      meta:
+        dimension:
+          type: double
+    - name: view_path
+      meta:
+        dimension:
+          type: string
+    - name: sign_up_type
+      meta:
+        dimension:
+          type: string
+    - name: device_type
+      meta:
+        dimension:
+          type: string
+    - name: number_of_favorites
+      meta:
+        dimension:
+          type: double
+    - name: user_id
+      meta:
+        dimension:
+          type: string
+    - name: event_name
+      meta:
+        dimension:
+          type: string
+    - name: _time
+      meta:
+        dimension:
+          type: timestamp
+    - name: year
+      meta:
+        dimension:
+          type: string
+    - name: experiment_group
+      meta:
+        dimension:
+          type: double
+    - name: id
+      meta:
+        dimension:
+          type: string
+    - name: location
+      meta:
+        dimension:
+          type: string
+    - name: device_id
+      meta:
+        dimension:
+          type: string
+    - name: event_type
+      meta:
+        dimension:
+          type: string
+    - name: timestamp
+      meta:
+        dimension:
+          type: timestamp
+    - name: ab_testing_experiment
+      meta:
+        dimension:
+          type: array_string
+    - name: app_version
+      meta:
+        dimension:
+          type: string
+    - name: _user
+      meta:
+        dimension:
+          type: string
+    - name: show_id
+      meta:
+        dimension:
+          type: string
+    - name: device_connection
+      meta:
+        dimension:
+          type: string
+    - name: type
+      meta:
+        dimension:
+          type: string
+    - name: app_build_type
+      meta:
+        dimension:
+          type: string
+    - name: show_name
+      meta:
+        dimension:
+          type: string
+    - name: gender
+      meta:
+        dimension:
+          type: string
+    - name: platform
+      meta:
+        dimension:
+          type: string
+    - name: $server_time
+      meta:
+        dimension:
+          label: $server_time
+          type: timestamp
+          name: server_time
