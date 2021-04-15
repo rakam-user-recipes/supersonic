@@ -79,6 +79,7 @@ sources:
         dimension:
           type: string
         measure:
+          dimension: device_id
           aggregation: count_unique
           label: 'Unique Devices'
     - name: event_type
@@ -102,6 +103,7 @@ sources:
         dimension:
           type: string
         measure:
+          dimension: _user
           aggregation: count_unique
           label: 'Unique Users'
     - name: show_id
