@@ -6,6 +6,9 @@ sources:
   tables:
   - name: related_channel_recommendation_selected
     meta:
+      mappings:
+        eventTimestamp: _time
+        userId: _user
       measures:
         count_of_rows:
           aggregation: count
@@ -75,6 +78,9 @@ sources:
       meta:
         dimension:
           type: string
+        measure:
+          aggregation: count_unique
+          label: 'Unique Devices'
     - name: event_type
       meta:
         dimension:
@@ -95,6 +101,9 @@ sources:
       meta:
         dimension:
           type: string
+        measure:
+          aggregation: count_unique
+          label: 'Unique Users'
     - name: show_id
       meta:
         dimension:
