@@ -18,6 +18,20 @@
         formatNumbers : true
       }
     },
+    survey_id : {
+      type : "string",
+      column : "survey_id",
+      reportOptions : {
+        formatNumbers : true
+      }
+    },
+    survey_url : {
+      type : "string",
+      column : "survey_url",
+      reportOptions : {
+        formatNumbers : true
+      }
+    },
     id : {
       type : "string",
       column : "id",
